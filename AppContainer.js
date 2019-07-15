@@ -14,7 +14,7 @@ const AppNavigator = createStackNavigator(
 	Life: LifecycleScreen,
 
 },{
-	initialRouteName: 'Home'
+	initialRouteName: 'Calci'
 });
 
 export default createAppContainer(AppNavigator);
