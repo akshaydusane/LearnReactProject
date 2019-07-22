@@ -14,6 +14,7 @@ export default class HomeScreen extends Component{
 					<Button title="Login" onPress={() => this.props.navigation.navigate('Login')}/>
 					<Button title="Calculator" onPress={() => this.props.navigation.navigate('Calci')}/>
 					<Button title="React Lifecycle" onPress={() => this.props.navigation.navigate('Life')}/>
+					<Button title="NativeBase Components" onPress={() => this.props.navigation.navigate('NativeBase')}/>
 				</View>
 			</View>
 		);

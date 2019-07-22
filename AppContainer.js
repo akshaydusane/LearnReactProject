@@ -5,6 +5,7 @@ import HomeScreen from './components/HomeScreen';
 import LoginScreen from './components/LoginScreen';
 import CalculatorScreen from './components/CalculatorScreen';
 import LifecycleScreen from './components/LifecycleScreen';
+import NativeBaseCompScreen from './components/NativeBaseCompScreen';
 
 const AppNavigator = createStackNavigator(
 {
@@ -12,9 +13,10 @@ const AppNavigator = createStackNavigator(
 	Login: LoginScreen,
 	Calci: CalculatorScreen,
 	Life: LifecycleScreen,
+	NativeBase: NativeBaseCompScreen,
 
 },{
-	initialRouteName: 'Calci'
+	initialRouteName: 'NativeBase'
 });
 
 export default createAppContainer(AppNavigator);
